@@ -1,0 +1,151 @@
+*{ 
+
+     margin:0; 
+
+     padding:0; 
+
+     box-sizing: border-box; 
+
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+     --text:rgb(168, 168, 168); 
+
+     --light:rgba(226, 223, 223, 0.7); 
+
+ } 
+
+  
+
+  
+
+ .container{ 
+
+     text-align: center; 
+
+    width: 80%; 
+
+     margin:0 auto; 
+
+ } 
+
+ .body { 
+
+     max-width: 300px; 
+
+     padding-bottom:2rem; 
+
+     margin:0 auto; 
+
+     color:var(--text); 
+
+      
+
+  
+
+    
+
+ } 
+
+ .title { 
+
+     font-size:25px; 
+
+     padding:.5rem 0; 
+
+ } 
+
+  
+
+  
+
+ .description { 
+
+     font-size: 10px; 
+
+     letter-spacing: .7px; 
+
+ } 
+
+ #input { 
+
+     padding: 4px; 
+
+     margin: 0 2%; 
+
+     margin-bottom:10px; 
+
+     border:2px var(--text) solid; 
+
+     display: block; 
+
+     width: 96%; 
+
+ } 
+
+ #input:focus{ 
+
+     border: 2px rgb(155, 236, 155) solid !important; 
+
+     outline: none; 
+
+ } 
+
+  
+
+ .output { 
+
+     box-shadow: rgb(0, 0, 0,0.6) 5px 5px 10px; 
+
+     width: 300px; 
+
+ } 
+
+ .output>img{ 
+
+  max-width: 300px; 
+
+  height: 300px; 
+
+  
+
+ } 
+
+  
+
+ .text{ 
+
+     position:relative; 
+
+     background:white; 
+
+     padding-bottom:1rem; 
+
+ } 
+
+ .icon{ 
+
+     display:inline-block; 
+
+     border-radius:50%; 
+
+     background-color:white; 
+
+     position:relative; 
+
+     top:-3.5rem; 
+
+ } 
+
+ .degree{ 
+
+     font-size: 50px; 
+
+     font-weight: 500; 
+
+ } 
+
+ .close { 
+
+     display: none; 
+
+ }
